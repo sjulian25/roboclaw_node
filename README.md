@@ -37,10 +37,15 @@ sudo chmod a+rw /dev/ttyACM0
 ```
 seguido de esto se debe configurar los modos del RoboClaw,  para esto se ubican los tres pulsadores que tiene el RoboClaw en su parte lateral
 
-assets/configPinesRoboClaw.png
+![configPinesRoboClaw](https://user-images.githubusercontent.com/72540198/204037363-100817e9-12e3-4144-81e8-66e9812119af.png)
 
 El RoboClaw cuenta con un led testigo que va a indicar en que configuracion se encuentra cada uno de los tres modos, hara blink las veces necesarias segun el numero correspondiente a cada configuración. Para acceder al modo de configuración se debera mantener pulsado el boton correspondiente de lo que se quiera configurar, en nuetro caso se va a configurar el Packet Mode en 7, el Serial Mode en 6 , y el Baterry Option en 2. En el siguiente video se muestra como se configuró el RoboClaw que se usó para el rover.
-assets/configRoboClaw.mp4
+
+
+
+https://user-images.githubusercontent.com/72540198/204037402-226b7c42-c8fc-4d42-9688-8f4d2e5ec574.mp4
+
+
 
 ## Instalación del repositorio
 ```bash
